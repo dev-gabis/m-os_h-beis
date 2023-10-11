@@ -1,0 +1,82 @@
+* {
+    font-family: sans-serif;
+    align-items: center;
+}
+
+body {
+    padding: 20px;
+    background-color: hsl(0, 0%, 92%);
+}
+
+fieldset {
+    display: block;
+    color: #ad485bda;
+    border-color: #ad485bda;
+    width: 370px;
+    padding-left: 30px;
+    height: auto;
+    display: inline-block;
+}
+
+
+div {
+    display: inline-block;
+
+}
+
+.banner {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.apresentação,
+.quemsomos,
+.objetivo {
+    background-color: #bb737f;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    border: none;
+    width: 97%;
+    text-align: center;
+}
+
+a {
+    color: #ffffff;
+    background-color: #bb737f;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #995f69;
+}
+
+hr {
+    color: #bb737f;
+    background-color: #bb737f;
+    height: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+button {
+    width: 300px;
+    padding: 10px;
+    background-color: #bb737f;
+    color: white !important;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+
+.contato {
+    width: 300px;
+    padding: 10px;
+    background-color: #bb737f;
+    color: white !important;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
