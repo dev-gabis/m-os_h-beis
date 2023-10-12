@@ -8,17 +8,6 @@ body {
     background-color: hsl(0, 0%, 92%);
 }
 
-fieldset {
-    display: block;
-    color: #ad485bda;
-    border-color: #ad485bda;
-    width: 370px;
-    padding-left: 30px;
-    height: auto;
-    display: inline-block;
-}
-
-
 div {
     display: inline-block;
 
@@ -29,16 +18,30 @@ div {
     border-radius: 30px;
 }
 
-.apresentação,
-.quemsomos,
-.objetivo {
-    background-color: #bb737f;
+
+fieldset {
+    color: #ad485bda;
+    border-color: #ad485bda;
     border-radius: 20px;
     padding: 20px;
-    color: white;
+}
+
+
+.box-roxo {
+    background-color: #ad485bda;
+    color: #ffffff;
+}
+
+
+button {
+    width: 300px;
+    padding: 10px;
+    background-color: #bb737f;
+    color: white !important;
+    border-radius: 20px;
     border: none;
-    width: 97%;
     text-align: center;
+    text-decoration: none !important;
 }
 
 a {
@@ -59,16 +62,6 @@ hr {
     height: 5px;
     border-radius: 20px;
     border: none;
-}
-
-button {
-    width: 300px;
-    padding: 10px;
-    background-color: #bb737f;
-    color: white !important;
-    border-radius: 20px;
-    border: none;
-    text-align: center;
 }
 
 .contato {
