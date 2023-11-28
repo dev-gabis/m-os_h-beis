@@ -35,7 +35,7 @@ fieldset {
 
 
 button {
-    padding: 20px;
+    padding: 10px;
     background-color: #bb737f;
     color: white !important;
     border-radius: 20px;
@@ -79,3 +79,140 @@ hr {
     border: none;
 }
 
+.enviar, .limpar{
+    background-color: #bb737f;
+    color: white !important;
+    border: none;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.opcao{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contato {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    }
+    .subcontato {
+    width: 500px;
+    color: white !important;
+    background-color: #bb737f;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    }
+    
+    /* Define a estilização para o menu principal */
+    ul.menu {
+    background-color: #bb737f;
+    /* Define a cor de fundo do menu principal */
+    display: flex;
+    /* Exibe os itens do menu lado a lado */
+    font-family: Arial;
+    font-size: 20px;
+    list-style: none;
+    /* Remove os marcadores de lista */
+    padding: 10;
+    /* Espalamento 10. Colocando 0 (zero) Remove o espaçamento interno
+    */
+    border-radius: 10px;
+    text-align: center;
+    }
+    /* Estilização para os itens do menu principal */
+    ul.menu li.menu-item {
+    
+    position: relative;
+    /* Permite posicionar os submenus corretamente */
+    margin-right: 20px;
+    /* Define o espaçamento entre os itens do menu */
+    }
+    /* Estilização para os links dos itens do menu principal */
+    ul.menu li a {
+    color: white;
+    /* Define a cor do texto do menu principal */
+    padding: 10px;
+    /* Adiciona um preenchimento uniforme interno de 10 pixels ao
+    elemento "nota" em todas as bordas
+    Controlar o espaçamento interno de um elemento HTML em relação às
+    suas bordas.
+    PROPRIEDADE padding
+    Podemos definir o padding separadamente para cada borda usando
+    valores individuais ou abreviados
+    padding-top: 10px; Espaçamento na borda superior
+    padding-right: 20px; Espaçamento na borda direita
+    padding-bottom: 15px; Espaçamento na borda inferior
+    padding-left: 30px; Espaçamento na borda esquerda
+    */
+    text-decoration: none;
+    /* Remove a decoração de texto */
+    display: block;
+    /* Faz com que o link ocupe a largura total do item do menu */
+    }
+    /* Define o estilo dos submenus e oculta-os inicialmente */
+    ul.menu li .submenu {
+    display: none;
+    /* Esconde os submenus por padrão */
+    border-radius: 20px;
+    position: absolute;
+    /* Permite posicionar os submenus de forma absoluta */
+    background-color: #bb737f;
+    /* Define a cor de fundo dos submenus */
+    color: #000000;
+    width: 200px;
+    /* Define a largura dos submenus */
+    padding: 10px;
+    /* Define o espaçamento interno dos submenus */
+    
+    list-style: none;
+    /* Remove os marcadores de lista */
+    top: 90%;
+    /* Posiciona o submenu abaixo do item do menu principal */
+    left: 0;
+    /* Alinha o submenu com o lado esquerdo do item do menu principal
+    */
+    z-index: 2;
+    /* Define a ordem de empilhamento, acima do conteúdo */
+    }
+    /* Mostra o submenu quando o item do menu principal é hoverado */
+    ul.menu li.menu-item:hover>.submenu {
+    display: block;
+    /* Exibe o submenu ao passar o mouse no item do menu principal */
+    }
+    /* Estilização para os itens dentro dos submenus */
+    ul.submenu li {
+    display: block;
+    /* Exibe os itens dos submenus como blocos */
+    }
+    /* Estilização para os links dentro dos submenus */
+    ul.submenu li a {
+    color: #FFF;
+    /* Define a cor do texto dos submenus */
+    text-decoration: none;
+    /* Remove a decoração de texto */
+    }
+    ul.menu li a:hover {
+    background-color: rgb(243, 218, 230);
+    color: #000000;
+    }
+    /* Adicione margens à tabela */
+    table {
+    margin: 20px;
+    border-collapse: collapse;
+    /* Mescla as bordas da tabela */
+    }
+    
+    th,
+    td {
+    border: 1px solid black;
+    /* Adicione bordas às células */
+    padding: 5px;
+    /* Adicione espaço interno às células */
+    }
+    
+    .cadastro {
+    width: 500px;}
